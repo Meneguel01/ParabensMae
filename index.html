@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário, Mãe, te amo!!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: #f9f9f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            position: relative;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .title {
+            font-size: 3em;
+            color: #FFD700;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+            margin: 20px 0;
+            animation: bounce 2s infinite;
+        }
+
+        .message {
+            font-size: 1.5em;
+            color: #4B0082;
+            margin: 20px 0;
+            animation: fadeIn 3s ease-out;
+        }
+
+        .princess {
+            width: 200px;
+            height: auto;
+            animation: rotate 5s infinite linear;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .button {
+            background-color: #FFD700;
+            color: #4B0082;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .button:hover {
+            background-color: #FFC107;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/e/ef/Belle_by_Disney.png" alt="Princesa Bela" class="princess">
+        <div class="title">Feliz Aniversário, Mamis, te amo!!</div>
+        <div class="message">Que seu dia seja tão mágico quanto um conto de fadas!</div>
+        <div class="love-note">
+            Mãe, você é a luz da minha vida e a razão do meu sorriso. Sua força, amor e dedicação são a maior inspiração para mim. Cada momento ao seu lado é um presente, e neste dia especial, quero que saiba o quanto você é amada e apreciada. Que seu aniversário seja repleto de felicidade e alegria. Te amo mais do que palavras podem expressar!
+        </div>
+    </div>
+</body>
+</html>
